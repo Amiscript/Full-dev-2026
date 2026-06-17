@@ -1,0 +1,22 @@
+*{
+    background-color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    border:0;
+}
+
+.container{
+    display: grid;
+    /* grid-template-columns:100px 80px 60px 40px 200px  ; */
+    grid-template-rows:100px 80px 60px ;
+    
+
+
+ 
+}
+
+.one, .two, .three, .four, .five{
+    gap: 10px;
+    margin: 10px;
+    background-color: blue; 
+}
