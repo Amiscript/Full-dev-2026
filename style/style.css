@@ -14,17 +14,15 @@
 
 /* by tag name */
 
-p{
-   color: blue;
-}
 
-h1{
+
+/* h1{
    color: green;
-}
+} */
 
-div{
+/* div{
    background-color: brown;
-}
+} */
 
 /* by class name  - using dot (.) */
 .First{
@@ -35,5 +33,122 @@ div{
 /* id name - using ( #) */
 #Third{
    font-size: 50px;
+}
+*{
+   margin: 0;
+   border: 0;
+   width: auto;
+    background-color: rgb(33, 31, 31);
+    color: white;
+
+}
+
+
+header, .nav-bar{
+   display: flex;
+   height: 70px;
+   width: auto;
+    background-color: rgba(33, 31, 31, 0.543);
+
+   color: white;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.462);
+
+}
+
+.nav-bar{
+
+
+}
+.logo-container, .logo{
+height:50px ;
+width: 50px;
+margin-left: 10px;
+margin-top: 5px;
+
+}
+
+.menu-bar,  ul{
+   display: flex;
+   gap: 30px;
+   margin-right: 140px;
+   margin-left: 150px;
+   margin-top: 10px;
+   list-style: none;
+}
+ul li:hover{
+   color: orangered;
+}
+
+.button-get:hover{
+   background-color: rgb(152, 44, 5);
+}
+
+ .button-get{
+ /* display: flex; */
+margin-top: 10px;
+ padding: 10px 20px 10px 20px;
+ background-color: orangered;
+ color: white;
+ border-radius: 10px;
+ font-weight: bolder;
+ font-size: 20px;
+}
+
+.hero-section{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.hero-button{
+   padding: 10px;
+   border-radius: 20px;
+   background-color: rgba(193, 59, 11, 0.738);
+   color: orangered;
+   border: 1px solid orangered;
+}
+.hero-text{
+   margin-top: 20px;
+   font-size: 70px;
+   word-spacing: -10px;
+   text-align: center;
+}
+.hero-subtitle{
+   margin-top: 20px;
+   text-align: center;
+   font-size: 20px;
+}
+
+.hero-buttons{
+   margin-top: 20px;
+   display: flex;
+   gap: 20px;
+}
+.one{
+padding: 10px;
+border-radius: 10px;
+background-color: orangered;
+color: white;
+   border: 1px solid orange;
+}
+.two{
+padding: 10px;
+border-radius: 10px;
+background-color: rgb(26, 7, 1);
+color: white;
+border: 1px solid orangered;
+}
+
+.one:hover{
+   background-color: rgb(120, 35, 3);
+   
+}
+.two:hover{
+   background-color: rgb(215, 61, 5);
+   
+}
+.saas{
+   color: orangered;
 }
 
