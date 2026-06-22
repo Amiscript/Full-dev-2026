@@ -152,3 +152,36 @@ border: 1px solid orangered;
    color: orangered;
 }
 
+.users-section, .image-section, .text-section{
+   display: flex;
+}
+
+.image-section{
+
+
+}
+
+.image-one  img{
+   height: 50px;
+   width: 50px;
+   border-radius: 25px;
+  
+
+}
+
+.image-two  img{
+    height: 50px;
+   width: 50px;
+    border-radius: 25px;
+   
+}
+.image-three  img{
+    height: 50px;
+   width: 50px;
+    border-radius: 25px;
+   
+}
+
+.text-section p{
+
+}
